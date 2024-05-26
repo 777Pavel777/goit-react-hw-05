@@ -7,9 +7,10 @@
 
 .btnItem {
   cursor: pointer;
-  padding: 10px;
-  border-radius: 10px;
   border: none;
-  color: #fff;
-  background-color: #3030e4;
+  border-bottom: 3px solid #3030e4;
+  border-radius: 7px;
+  color: #333;
+  background-color: inherit;
+  font-weight: 500;
 }

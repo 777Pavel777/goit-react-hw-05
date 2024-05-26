@@ -31,13 +31,13 @@ export default function HomePage() {
   return (
     <>
       <ul className={css.btnContainer}>
-        <li>
+        {/* <li>
           <button className={css.btnItem} onChange={() => setTop('day')}>
             Top Day
           </button>
-        </li>
+        </li> */}
         <li>
-          <button className={css.btnItem} onChange={() => setTop('week')}>
+          <button className={css.btnItem} onChange={() => setTop('months')}>
             Top Week
           </button>
         </li>
