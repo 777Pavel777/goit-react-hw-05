@@ -1,0 +1,15 @@
+.btnContainer {
+  display: flex;
+  margin: 0;
+  padding: 20px 0 20px 40px;
+  gap: 20px;
+}
+
+.btnItem {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #3030e4;
+}

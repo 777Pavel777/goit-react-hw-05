@@ -1,0 +1,15 @@
+.navList {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav {
+  padding: 20px 0;
+}
+
+.navLink {
+  font-weight: 500;
+  font-size: 18px;
+}

@@ -1,0 +1,33 @@
+.filmContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  row-gap: 80px;
+  padding: 40px 0;
+}
+
+.filmContainerItem {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.filmLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.filmImg {
+  width: 250px;
+}
+
+.filmTitle {
+  font-size: 20px;
+  font-weight: 600;
+}

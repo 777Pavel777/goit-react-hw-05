@@ -1,0 +1,29 @@
+.detailsContainer {
+  display: flex;
+  padding: 40px;
+}
+
+.moreDetailsFilm {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 20px 40px;
+}
+
+.filmInfo {
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: blue;
+  font-weight: bold;
+}
+
+.filmText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.goBack {
+  font-size: 30px;
+}

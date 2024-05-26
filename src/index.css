@@ -6,7 +6,10 @@
 
 body {
   margin: 0;
-  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(236, 229, 229);
 }
 
 p {
@@ -23,5 +26,10 @@ li {
 span {
   margin: 0;
   padding: 0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
   color: #333;
 }

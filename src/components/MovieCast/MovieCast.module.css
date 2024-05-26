@@ -1,0 +1,16 @@
+.castTitle {
+  padding-left: 40px;
+}
+
+.castContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.actorContainer {
+  width: 200px;
+}

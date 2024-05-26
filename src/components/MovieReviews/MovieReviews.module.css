@@ -1,0 +1,10 @@
+.titleReviews {
+  padding-left: 40px;
+}
+
+.reviewsContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 20px;
+}
