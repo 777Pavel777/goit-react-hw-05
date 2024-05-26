@@ -3,6 +3,10 @@
   padding: 40px;
 }
 
+.poster {
+  height: 480px;
+}
+
 .moreDetailsFilm {
   display: flex;
   gap: 40px;
