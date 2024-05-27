@@ -24,6 +24,7 @@
 .filmImg {
   display: block;
   width: 100%;
+  height: 350px;
   margin-bottom: 10px;
 }
 
@@ -31,4 +32,9 @@
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.filmContainerItem:hover .filmTitle {
+  color: #03f81b;
 }
