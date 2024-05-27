@@ -29,7 +29,6 @@
 
 .filmText {
   display: flex;
-  align-items: center;
   gap: 10px;
 }
 
@@ -37,6 +36,17 @@
   font-size: 30px;
 }
 
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
 .iconStar {
   color: #ecf803;
+}
+
+.detailsMovie {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

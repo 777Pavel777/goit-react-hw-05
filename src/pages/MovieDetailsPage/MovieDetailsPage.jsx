@@ -55,7 +55,7 @@ export default function MovieDetailsPage() {
           <div className={css.detailsContainer}>
             <img className={css.poster} src={posterUrl} alt={title} />
             <div className={css.detailsFilm}>
-              <ul>
+              <ul className={css.detailsMovie}>
                 <li>
                   <h2 className={css.filmTitle}>
                     {title} ({release_date})
@@ -66,7 +66,9 @@ export default function MovieDetailsPage() {
                     <b className={css.textFilm}>User Score: </b>
 
                     {vote_average.toFixed(1)}
-                    <FaStar className={css.iconStar} />
+                    <span className={css.iconContainer}>
+                      <FaStar className={css.iconStar} />
+                    </span>
                   </p>
                 </li>
                 <li>

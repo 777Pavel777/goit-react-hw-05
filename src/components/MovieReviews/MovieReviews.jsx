@@ -35,7 +35,7 @@ export default function MovieReviews() {
       {error && <Error />}
       <h3 className={css.titleReviews}>Reviews</h3>
       {filmDetails && filmDetails.length ? (
-        <ul>
+        <ul className={css.reviewsMovie}>
           {filmDetails.map(({ id, author_details: { username }, content }) => (
             <li className={css.reviewsContainer} key={id}>
               <p className={css.reviewsFilmText}>

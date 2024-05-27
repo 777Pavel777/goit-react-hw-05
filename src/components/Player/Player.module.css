@@ -2,5 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  margin: 40px 0;
+  box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.5);
 }

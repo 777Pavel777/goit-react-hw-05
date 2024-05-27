@@ -10,6 +10,11 @@
 .filmContainerItem {
   display: flex;
   justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.filmContainerItem:hover {
+  transform: scale(1.1);
 }
 
 .filmLink {
